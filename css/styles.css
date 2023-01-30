@@ -1,0 +1,217 @@
+/* Root file variables */
+:root {
+    --color-iris: #4d5ae5; /* CTA, focused, active stts, links */
+    --color-ocean: #404bbf; /* CTAs */
+    --color-navy-blue: #2e2f42; /* Overlay, shadows, headings */
+    --color-green: #31d0aa; /* valid fields, sucs messages */
+    --color-slate: #434455; /* body text */
+    --color-light-slate: #8e8f99; /* helper text */
+    --color-cornflower: #e7e9fc; /* accent color */
+    --color-cloud: #f4f4fd; /* lightmode background */
+    --color-navy-blue-modal: #2e2f42; /* modal overlay */
+    --color-grey: #2e2f42;  /* hero background */
+    --color-light: #fff;
+}
+/* Variables end */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: calc(24 / 16);
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: var(--color-navy-blue); /* Most popular color on site */
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    list-style: none;
+}
+.header {}
+
+.header-navigation {}
+
+.header-logo {}
+
+.header-menu {}
+
+.menu {}
+
+.menu-item {}
+
+.menu-link {
+    font-weight: 500;
+}
+.menu-link:hover {
+    color: var(--color-ocean);
+}
+.header-contacts {}
+
+.contacts {}
+
+.contacts-item {}
+
+.contacts-link {
+    color: var(--color-slate)
+}
+.contacts-link:hover {
+    color: var(--color-ocean);
+}
+
+/* ============================================================= */
+/* Index html styles starts here */
+/* ============================================================= */
+
+.main-page {}
+
+.hero {
+    background-color: var(--color-navy-blue);
+}
+
+.hero-btn {
+    color: var(--color-light);
+    background-color: var(--color-iris);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--color-ocean);
+    cursor: pointer;
+}
+.main-page-header {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: calc(60 / 56);
+    text-align: center;
+    color: var(--color-light);
+}
+
+.advantages {}
+
+.advantages-list {}
+
+.advantages-item {}
+
+.advantage-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc(24 / 20);
+}
+
+.advantages-text {
+    color: var(--color-slate);
+}
+
+.skills {}
+
+.skills-header {}
+
+.skills-list {}
+
+.skills-item {}
+
+.skills-img {}
+
+.team {
+    background-color: var(--color-cloud);
+}
+
+.team-header {}
+
+.team-list {}
+
+.team-item {}
+
+.team-img {}
+
+/* ============================================================= */
+/* Index html styles ends here */
+/* ============================================================= */
+
+.footer {
+    background-color: var(--color-navy-blue);
+}
+
+.footer-logo {}
+
+.footer-text {
+    color: var(--color-cornflower);
+}
+/* ============================================================= */
+/* Portfolio html styles starts here */
+/* ============================================================= */
+.portfolio-page {}
+
+.portfolio-filters {}
+
+.portfolio-filter {
+}
+.portfolio-btn {
+    color: var(--color-iris);
+    background-color: var(--color-cloud);
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: var(--color-light);
+    background-color: var(--color-ocean);
+    cursor: pointer;
+}
+.portfolio-cards {}
+
+.portfolio-card {}
+
+.portfolio-img {}
+
+.portfolio-title {}
+
+.portfolio-tag {}
+/* ============================================================= */
+/* Portfolio html styles ends here */
+/* ============================================================= */
+
+/* ============================================================= */
+/* Common styles */
+/* ============================================================= */
+.btn {
+    letter-spacing: 0.04em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: calc(24 / 16);
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc(24 / 20);
+}
+
+.item-subtitle {
+    color: var(--color-slate);
+}
+
+.section-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(40 / 36);
+    text-align: center;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: calc(24 / 18);
+    letter-spacing: 0.03em;
+    color: var(--color-navy-blue);
+}
+
+.logo-light {
+    color: var(--color-cloud);
+}
+
+.logo-wrap {
+    color: var(--color-iris)
+}
