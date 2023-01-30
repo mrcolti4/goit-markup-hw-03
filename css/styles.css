@@ -28,6 +28,14 @@ a {
 ul {
     list-style: none;
 }
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.section {
+    padding: 120px 0;
+}
 .header {}
 
 .header-navigation {}
