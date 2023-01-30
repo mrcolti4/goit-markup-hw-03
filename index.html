@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,34 +24,36 @@
   <body>
     <header class="header">
       <div class="container">
-        <nav class="header-navigation">
-          <a href="./index.html" class="header-logo logo"
-            ><span class="logo-wrap">WEB</span>STUDIO</a
-          >
-          <ul class="header-menu menu">
-            <li class="menu-item">
-              <a href="./index.html" class="menu-link">Studio</a>
+        <div class="header-wrapper">
+          <nav class="header-navigation">
+            <a href="./index.html" class="header-logo logo"
+              ><span class="logo-wrap">WEB</span>STUDIO</a
+            >
+            <ul class="header-menu menu">
+              <li class="menu-item">
+                <a href="./index.html" class="menu-link">Studio</a>
+              </li>
+              <li class="menu-item">
+                <a href="./portfolio.html" class="menu-link">Portfolio</a>
+              </li>
+              <li class="menu-item">
+                <a href="" class="menu-link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="header-contacts contacts">
+            <li class="contacts-item">
+              <a href="mailto:info@devstudio.com" class="contacts-link"
+                >info@devstudio.com</a
+              >
             </li>
-            <li class="menu-item">
-              <a href="./portfolio.html" class="menu-link">Portfolio</a>
-            </li>
-            <li class="menu-item">
-              <a href="" class="menu-link">Contacts</a>
+            <li class="contacts-item">
+              <a href="tel:+110001111111" class="contacts-link">
+                +11 (000) 111-11-11
+              </a>
             </li>
           </ul>
-        </nav>
-        <ul class="header-contacts contacts">
-          <li class="contacts-item">
-            <a href="mailto:info@devstudio.com" class="contacts-link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="contacts-item">
-            <a href="tel:+110001111111" class="contacts-link">
-              +11 (000) 111-11-11
-            </a>
-          </li>
-        </ul>
+        </div>
       </div>
     </header>
     <main class="main-page">
@@ -141,8 +150,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-title item-title">Mark Guerrero</h3>
-              <p class="team-descr item-subtitle">Product Designer</p>
+              <div class="team-descr">
+                <h3 class="team-title item-title">Mark Guerrero</h3>
+                <p class="team-text item-subtitle">Product Designer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -152,8 +163,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-title item-title">Tom Ford</h3>
-              <p class="team-descr item-subtitle">Frontend Developer</p>
+              <div class="team-descr">
+                <h3 class="team-title item-title">Tom Ford</h3>
+                <p class="team-text item-subtitle">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -163,8 +176,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-title item-title">Camila Garcia</h3>
-              <p class="team-descr item-subtitle">Marketing</p>
+              <div class="team-descr">
+                <h3 class="team-title item-title">Camila Garcia</h3>
+                <p class="team-text item-subtitle">Marketing</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -174,8 +189,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-title item-title">Daniel Wilson</h3>
-              <p class="team-descr item-subtitle">UI Designer</p>
+              <div class="team-descr">
+                <h3 class="team-title item-title">Daniel Wilson</h3>
+                <p class="team-text item-subtitle">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
